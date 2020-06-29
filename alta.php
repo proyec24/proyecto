@@ -1,9 +1,6 @@
 <?php
     include 'db.php';
-    /*$name = "Christofer";
-    $lname = "Luevanos";
-    $age = "18";
-    $phone = "3339697191";*/
+
 	$name = filter_input(INPUT_POST, "name");
     $lname = filter_input(INPUT_POST, "apellidos");
     $age = filter_input(INPUT_POST,"edad");
