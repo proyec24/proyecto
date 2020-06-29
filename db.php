@@ -7,6 +7,5 @@
  	if($conn->connect_error){
     	die("Error de conexion: " .$conn->connection_error);
   	}else{
-  		echo"1";
   	}
 ?>
